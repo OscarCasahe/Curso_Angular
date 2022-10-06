@@ -22,7 +22,7 @@ const tablet: Producto = {
 
 }
 
-function calculaIVA(    productos: Producto[]   ):[number, number]   {
+export function calculaIVA(    productos: Producto[]   ):[number, number]   {
 
     let total = 0;
 
